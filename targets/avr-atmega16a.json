@@ -1,0 +1,30 @@
+{
+  "arch": "avr",
+  "llvm-target": "avr-unknown-unknown",
+  "data-layout": "e-P1-p:16:8-i8:8-i16:8-i32:8-i64:8-f32:8-f64:8-n8-a:8",
+  "target-endian": "little",
+  "target-pointer-width": "16",
+  "target-c-int-width": "16",
+
+  "os": "none",
+  "executables": true,
+  "relocation-model": "static",
+  "code-model": "small",
+  "panic-strategy": "abort",
+  "disable-redzone": true,
+
+  "cpu": "atmega16",
+  "features": "",
+
+  "max-atomic-width": 8,
+  "atomic-cas": false,
+
+  "linker": "avr-gcc",
+  "linker-flavor": "gcc",
+  "pre-link-args": { "gcc": ["-mmcu=atmega16"] },
+  "late-link-args": { "gcc": ["-lgcc"] },
+
+  "eh-frame-header": false,
+  "crt-objects-fallback": false,
+  "exe-suffix": ".elf"
+}

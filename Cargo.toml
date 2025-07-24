@@ -1,0 +1,22 @@
+[package]
+name = "gps"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+firmware = ["avr-device", "panic-halt"]
+
+[dependencies]
+avr-device = { version = "0.7.0", features = ["rt", "atmega16"], optional = true }
+panic-halt = { version = "0.2", optional = true }
+embedded-hal = "1.0.0"
+fugit = "0.3.7"
+
+[dev-dependencies]
+embedded-hal-mock = "0.11.1"
+
+[[bin]]
+name = "firmware"
+path = "src/main.rs"
+required-features = ["firmware"]
