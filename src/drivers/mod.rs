@@ -1,2 +1,1 @@
-mod buzzer;
-pub use self::buzzer::Buzzer;
+pub mod buzzer;

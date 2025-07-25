@@ -6,5 +6,5 @@ rustflags = [
 runner = "avrdude -c usbasp -p m16 -U flash:w:${CARGO_TARGET_DIR}/avr-atmega16a/release/atmega16a-firmware.hex:e"
 
 [alias]
-build-fw = "build --features firmware --release --target targets/avr-atmega16a.json -Zbuild-std=core,compiler_builtins"
-test-host = "test --target x86_64-pc-windows-msvc --no-default-features"
+build-prod = "build --features firmware --release --target targets/avr-atmega16a.json -Zbuild-std=core,compiler_builtins"
+test-win = "test --target x86_64-pc-windows-msvc --no-default-features"
