@@ -1,6 +1,7 @@
 # GPS Path Tracker 🚁
 
-A compact embedded system that captures and displays a user's travel path. Built on an AVR microcontroller in Embedded C, this project interfaces with GPS, an SD card, and an LCD to log and visualize movement.
+A compact embedded system that captures and displays a user's travel path. Built on an AVR microcontroller in Rust, this project interfaces with GPS, an SD card, and an LCD to log and visualize movement.
+This project is based on an older embedded C project from 2019.
 
 ---
 
@@ -38,3 +39,8 @@ A compact embedded system that captures and displays a user's travel path. Built
 - **Practical embedded design**: Demonstrates full-stack development from low-level communication to user-facing display.
 - **Hands-on sensor integration**: Covers interfacing real-world hardware: GPS, SD card, and LCD on AVR.
 - **Portable utility**: Can be adapted for fitness, geocaching, navigation, or outdoor tracking.
+
+## 🧑‍🍳 Todo
+
+- Implement drivers (LCD, SD card, GPS)
+- Implement OS logic
