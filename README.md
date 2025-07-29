@@ -9,7 +9,7 @@ This project is based on an older embedded C project from 2019.
 
 - [AVR GCC Compiler](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio/gcc-compilers)
 
-## 🚀 Features
+## Features
 
 - **Real-time GPS acquisition**: Interacts with a GPS module to obtain latitude, longitude, and timestamp data.
 - **Route logging**: Writes continuous location data to an SD card, allowing offline storage and post-activity analysis.
@@ -18,7 +18,7 @@ This project is based on an older embedded C project from 2019.
 
 ---
 
-## 📌 Project Architecture
+## Project Architecture
 
 ```
 🔐 GPS Driver   ➞  GPS Module
@@ -34,13 +34,13 @@ This project is based on an older embedded C project from 2019.
 
 ---
 
-## 💡 Why This Matters
+## Why This Matters
 
 - **Practical embedded design**: Demonstrates full-stack development from low-level communication to user-facing display.
 - **Hands-on sensor integration**: Covers interfacing real-world hardware: GPS, SD card, and LCD on AVR.
 - **Portable utility**: Can be adapted for fitness, geocaching, navigation, or outdoor tracking.
 
-## 🧑‍🍳 Todo
+## Todo
 
 - Implement drivers (LCD, SD card, GPS)
 - Implement OS logic
