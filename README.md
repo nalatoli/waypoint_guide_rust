@@ -1,7 +1,7 @@
 # Waypoint Guide 🚁
 
 A compact embedded system that captures and displays a user's travel path. Built on an AVR microcontroller in Rust, this project interfaces with GPS, an SD card, and an LCD to log and visualize movement.
-This project is based on an older embedded C project from 2019.
+This project is based on an my older embedded C project from 2019.
 
 ---
 
